@@ -1,0 +1,22 @@
+/* Ensure html and body take up full height */
+html, body {
+  height: 100%;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Full-page flexbox layout */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7fafc;  /* Set light background */
+}
+
+/* Make sure flex container fills the page */
+#root {
+  height: 100%;  /* Ensures root div fills the page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
